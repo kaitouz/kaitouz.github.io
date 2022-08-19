@@ -6,27 +6,27 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Thien Le
+title: Software & ML Engineer
+email: thienkaito@gmail.com
+website: www.github.com/kaitouz
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-twitter_username: facespics
+twitter_username: kaitouz
 github_username:  kaitouz
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+# stackoverflow_username: "kaitouz"
+# dribbble_username: kaitouz
+# facebook_username: kaitouz
+# flickr_username: kaitouz
 instagram_username: thienkaitouz
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
+linkedin_username: kaitouz
+# xing_username: kaitouz
+# pinterest_username: kaitouz
+youtube_username: kaitouz
+# googleplus_username: +kaitouz
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
