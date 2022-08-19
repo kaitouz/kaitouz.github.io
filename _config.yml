@@ -15,28 +15,19 @@ website: www.github.com/kaitouz
 darkmode: true
 
 # Social links
-twitter_username: kaitouz
+# twitter_username: kaitouz
 github_username:  kaitouz
 # stackoverflow_username: "kaitouz"
 # dribbble_username: kaitouz
-# facebook_username: kaitouz
+facebook_username: kaitouz
 # flickr_username: kaitouz
 instagram_username: thienkaitouz
 linkedin_username: kaitouz
 # xing_username: kaitouz
 # pinterest_username: kaitouz
-youtube_username: kaitouz
+# youtube_username: kaitouz
 # googleplus_username: +kaitouz
 # orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
