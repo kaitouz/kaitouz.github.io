@@ -39,7 +39,7 @@ linkedin_username: thien-le-ngoc-ba5648214
 # about_title: About Me
 about_profile_image: images/profile3.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Thien and I'm a fresher software engineer. As well as software engineer systems I also have experience making machine learning models. I have worked at a number of university project gaining teamwork and leadership skills.
+  Hi, my name's Thien and I'm a fresher software engineer. As well as software engineer systems I also have experience making machine learning models. I have worked on a number of university projects gaining teamwork and leadership skills.
 
   I am most skilled in: <mark>AWS</mark> and <mark>TensorFlow/Pytorch</mark>
 
