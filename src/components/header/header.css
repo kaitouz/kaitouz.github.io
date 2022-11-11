@@ -1,0 +1,48 @@
+.site__header {
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--bg-color);
+}
+
+.nav_ac {
+    padding: 5px 15px;
+    margin: 0;
+    border: unset;
+    background: var(--primary-color);
+    font-size: 1.25rem;
+    color: var(--text-color-2);
+    line-height: 2;
+    height: 50px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.nav_ac:hover {
+    color: var(--text-color-2);
+}
+
+
+.header__links {
+    margin-left: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px
+
+}
+
+header .header__links .header__link::before {
+    content: "#";
+    font-weight: normal;
+}
+
+header .header__links .header__link  {
+    text-decoration: none;
+}
+
+header .header__links .header__link:hover,
+.header__links .header__link_active  {
+    font-weight: 900;
+    color: var(--white);
+    text-decoration: none;
+}
