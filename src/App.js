@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import { Home } from "./pages/home/Home";
 import { Portfolio } from "./pages/portfolio/Portfolio";
@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Header />
         <div className="content">
           <Routes>
@@ -26,7 +26,7 @@ function App() {
           </Routes>
           <Navbar />
         </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
