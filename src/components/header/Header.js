@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <>
             <header className="site__header fixed-top">
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between pt-3">
 
                     <Link  className="navbar-brand nav_ac" to="/">
                     Kaitouz

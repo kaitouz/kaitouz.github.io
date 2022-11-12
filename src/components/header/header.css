@@ -1,21 +1,15 @@
 .site__header {
-    top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: var(--bg-color);
 }
 
 .nav_ac {
-    padding: 5px 15px;
-    margin: 0;
-    border: unset;
+    padding: 7px 15px;
     background: var(--primary-color);
     font-size: 1.25rem;
     color: var(--text-color-2);
-    line-height: 2;
-    height: 50px;
     font-weight: bold;
-    z-index: 1000;
 }
 
 .nav_ac:hover {
@@ -26,9 +20,7 @@
 .header__links {
     margin-left: auto;
     display: flex;
-    align-items: flex-start;
     gap: 32px
-
 }
 
 header .header__links .header__link::before {
