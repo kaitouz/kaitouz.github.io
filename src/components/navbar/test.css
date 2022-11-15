@@ -13,14 +13,6 @@
     margin: 0;
 }
 
-.stick_follow_icon ul li {
-    display: block;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 10px;
-    transition: all .3s;
-}
-
 .stick_follow_icon svg {
     width: 1.3em;
     height: 1.3em;
@@ -28,7 +20,7 @@
 }
 
 .stick_follow_icon p {
-    top: 80px; /*change position here*/
+    top: 70px;
     left: -24px;
     width: 68px;
     height: 20px;
@@ -41,9 +33,17 @@
     transform: rotate( -90deg);
 }
 
+.stick_follow_icon ul li {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
 .stick_follow_icon p:after {
-    top: 9px;  /*change position here*/
-    right: -60px;
+    top: 9px;
+    right: -48px;
     width: 40px;
     height: 1px;
     content: "";
@@ -52,10 +52,8 @@
     background-color: var(--text-color);
 }
 
-
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 991px) {
     .stick_follow_icon {
-        bottom: 0;
         width: unset;
         height: unset;
         position: static;

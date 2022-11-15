@@ -11,7 +11,7 @@ section {
     margin-top: -60px;
 }
 
-.intro_sec .hero-image {
+/* .intro_sec .hero-image {
     width: 50%;
     height: 100%;
     min-height: 750px;
@@ -21,21 +21,30 @@ section {
     background-position-x:left;
     background-position-y:bottom;
     filter: grayscale();
+} */
+
+.intro_sec .hero-image {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    position: relative;
+    filter: grayscale();
+
 }
 
 @media (max-width:991.98px) {
-    .intro_sec {
-        height: auto!important;
-    }
+    .intro_sec .text,
     .intro_sec .hero-image {
         width: 100%;
+    }
+
+    .intro_sec .hero-image {
         height: 600px;
         min-height: 75vh;
         margin-bottom: 30px;
-        scale:90%;
     }
 }
-
 
 .intro_sec .intro {
     max-width: 500px;
@@ -69,3 +78,7 @@ section {
     background: var(--bg-color);
     color: var(--secondary-color);
 }
+
+
+
+
